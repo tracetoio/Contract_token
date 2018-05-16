@@ -1,0 +1,45 @@
+{
+  "name": "chain",
+  "version": "1.0.0",
+  "description": "traceto.io with rest api",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "python2 ./script/test_API.py",
+    "start": "./script/run.sh",
+    "stop": "./script/stop.sh"
+  },
+  "keywords": [
+    "ethereum",
+    "rest",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:traceto/applicationcontracts.git"
+  },
+  "dependencies": {
+    "bignumber.js": "git+https://github.com/frozeman/bignumber.js-nolookahead.git",
+    "koa": "git+https://github.com/koajs/koa.git",
+    "koa-bodyparser": "git+https://github.com/koajs/bodyparser.git",
+    "koa-router": "git+https://github.com/alexmingoia/koa-router.git",
+    "truffle-contract": "git+https://github.com/trufflesuite/truffle-contract.git",
+    "truffle-hdwallet-provider": "git+https://github.com/trufflesuite/truffle-hdwallet-provider.git",
+    "web3": "git+https://github.com/ethereum/web3.js.git"
+  },
+  "standard": {
+    "globals": [
+      "assert",
+      "it",
+      "before",
+      "beforeEach",
+      "artifacts",
+      "contract",
+      "web3"
+    ]
+  }
+}

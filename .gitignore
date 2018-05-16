@@ -1,0 +1,10 @@
+# node.js libraries
+node_modules/
+
+# log
+build/
+keys/ 
+.node-*
+*.log
+data/
+package-lock.json
