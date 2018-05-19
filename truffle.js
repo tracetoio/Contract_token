@@ -1,7 +1,7 @@
 var HDWalletProvider = require("truffle-hdwallet-provider");
-var metamask_mnemonic = "habit rich kingdom blue install giggle business inquiry boat genius regret mimic";
-var ganache_mnemonic = "candy maple cake sugar pudding cream honey rich smooth crumble sweet treat";
-var providerUrl = "https://ropsten.infura.io/PKVnHB5BIOAHG0FDhv1C";
+var metamask_mnemonic = "";
+var ganache_mnemonic = "";
+var providerUrl = "https://ropsten.infura.io/<Token>";
 
 
 module.exports = {
